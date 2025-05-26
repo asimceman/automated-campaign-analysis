@@ -1,0 +1,200 @@
+ID,Target_Audience,Channel_Used,Conversion_Rate,Acquisition_Cost,ROI,Location,Language,Clicks,Impressions,Engagement_Score,Date
+1,Men 18-24,Google Ads,0.04,"$20,000.00 ",6.29,Chicago,Spanish,506,1922,6,1/1/2021
+2,Women 35-44,Google Ads,0.12,"$11,566.00 ",5.61,New York,German,116,7523,7,1/2/2021
+3,Men 25-34,YouTube,0.07,"$10,200.00 ",7.18,Los Angeles,French,584,7698,1,1/3/2021
+4,All Ages,YouTube,0.11,"$12,724.00 ",5.55,Miami,Mandarin,217,1820,7,1/4/2021
+5,Men 25-34,YouTube,0.05,"$16,452.00 ",6.5,Los Angeles,Mandarin,379,4201,3,1/5/2021
+6,All Ages,Instagram,0.07,"$9,716.00 ",4.36,New York,German,100,1643,1,1/6/2021
+7,Women 35-44,Website,0.13,"$11,067.00 ",2.86,Los Angeles,Spanish,817,8749,10,1/7/2021
+8,Men 18-24,Google Ads,0.08,"$13,280.00 ",5.55,Los Angeles,Mandarin,624,7854,7,1/8/2021
+9,Women 35-44,Facebook,0.09,"$18,066.00 ",6.73,Chicago,German,861,1754,6,1/9/2021
+10,Women 35-44,Instagram,0.09,"$13,766.00 ",3.78,Los Angeles,English,642,3856,3,1/10/2021
+11,Men 25-34,Email,0.12,"$8,590.00 ",3.49,New York,Spanish,321,6628,10,1/11/2021
+12,Men 25-34,Google Ads,0.05,"$17,502.00 ",3.59,Los Angeles,Mandarin,659,8948,1,1/12/2021
+13,Men 25-34,Facebook,0.09,"$17,189.00 ",4.91,Chicago,Mandarin,677,8817,10,1/13/2021
+14,Men 25-34,Instagram,0.14,"$9,975.00 ",07.06,New York,German,994,2201,4,1/14/2021
+15,All Ages,Website,0.04,"$11,346.00 ",5.28,Chicago,Spanish,482,8470,1,1/15/2021
+16,Women 35-44,YouTube,0.11,"$9,407.00 ",2.91,New York,German,299,1512,5,1/16/2021
+17,Women 35-44,Website,0.08,"$5,478.00 ",4.53,Houston,English,931,2488,3,1/17/2021
+18,Men 18-24,Instagram,0.14,"$9,485.00 ",4.48,Miami,French,218,9264,9,1/18/2021
+19,Men 25-34,Google Ads,0.07,"$19,224.00 ",06.08,New York,French,182,5798,1,1/19/2021
+20,Men 25-34,Google Ads,0.09,"$10,258.00 ",3.83,Miami,French,193,3677,1,1/20/2021
+21,Women 25-34,Email,0.04,"$16,580.00 ",7.99,New York,Spanish,975,1561,3,1/21/2021
+22,All Ages,Facebook,0.02,"$12,824.00 ",6.21,New York,French,319,8586,2,1/22/2021
+23,Women 35-44,YouTube,0.13,"$8,699.00 ",2.12,Miami,French,646,3841,5,1/23/2021
+24,Women 25-34,Facebook,0.04,"$17,608.00 ",7.31,Miami,Spanish,764,2157,8,1/24/2021
+25,Men 18-24,YouTube,0.07,"$8,773.00 ",06.03,Miami,Mandarin,527,1733,1,1/25/2021
+26,Women 25-34,Instagram,0.04,"$14,756.00 ",6.23,Houston,English,809,8236,10,1/26/2021
+27,Women 25-34,Facebook,0.09,"$9,182.00 ",06.03,Houston,English,953,6916,5,1/27/2021
+28,Men 25-34,YouTube,0.07,"$6,601.00 ",3.29,New York,Spanish,604,2420,3,1/28/2021
+29,Men 18-24,Email,0.09,"$11,552.00 ",7.12,Chicago,Spanish,384,7620,7,1/29/2021
+30,Women 25-34,Email,0.09,"$11,608.00 ",3.61,Los Angeles,Spanish,952,4055,1,1/30/2021
+31,Men 25-34,Instagram,0.07,"$13,124.00 ",2.77,Houston,Mandarin,512,4837,4,1/31/2021
+32,All Ages,YouTube,0.07,"$13,245.00 ",6.83,New York,English,309,2885,7,2/1/2021
+33,Women 35-44,Email,0.06,"$5,796.00 ",4.42,New York,Spanish,367,3218,9,2/2/2021
+34,Women 25-34,Google Ads,0.14,"$15,082.00 ",2.71,Los Angeles,German,243,5724,4,2/3/2021
+35,Men 18-24,YouTube,0.07,"$18,332.00 ",7.81,Houston,Spanish,360,5349,6,2/4/2021
+36,Men 25-34,Instagram,0.09,"$13,256.00 ",2.51,Miami,German,250,7373,3,2/5/2021
+37,All Ages,Email,0.04,"$15,779.00 ",7.24,New York,Spanish,822,7152,1,2/6/2021
+38,Men 18-24,Facebook,0.06,"$7,683.00 ",2.62,Houston,French,833,9772,8,2/7/2021
+39,Men 25-34,Instagram,0.11,"$14,742.00 ",2.21,Chicago,Spanish,663,9473,10,2/8/2021
+40,Men 18-24,Google Ads,0.08,"$15,495.00 ",6.97,Chicago,German,268,5495,6,2/9/2021
+41,All Ages,Website,0.04,"$18,684.00 ",4.57,New York,French,212,4718,4,2/10/2021
+42,Men 25-34,Email,0.01,"$13,096.00 ",3.44,Los Angeles,French,360,2776,1,2/11/2021
+43,Men 25-34,Instagram,0.09,"$7,818.00 ",5.6,Houston,French,598,8637,5,2/12/2021
+44,All Ages,Instagram,0.09,"$8,214.00 ",4.77,Chicago,English,988,1612,5,2/13/2021
+45,Men 18-24,Google Ads,0.04,"$6,882.00 ",3.31,Miami,English,282,8038,7,2/14/2021
+46,Women 35-44,Google Ads,0.03,"$13,470.00 ",6.8,Miami,English,992,8036,8,2/15/2021
+47,Men 25-34,YouTube,0.06,"$14,948.00 ",7.4,New York,French,903,3940,3,2/16/2021
+48,Men 18-24,Instagram,0.04,"$15,255.00 ",3.8,Chicago,French,629,1824,3,2/17/2021
+49,All Ages,Facebook,0.1,"$9,510.00 ",5.25,Houston,French,190,2071,4,2/18/2021
+50,Women 25-34,Email,0.11,"$7,521.00 ",3.98,Los Angeles,German,150,7377,8,2/19/2021
+51,Men 25-34,Facebook,0.12,"$10,405.00 ",5.79,Los Angeles,French,134,8463,9,2/20/2021
+52,Men 25-34,Website,0.1,"$15,955.00 ",6.48,Houston,French,657,9831,7,2/21/2021
+53,Men 18-24,Facebook,0.13,"$15,428.00 ",7.62,Houston,French,385,4937,6,2/22/2021
+54,Women 35-44,YouTube,0.02,"$19,832.00 ",3.35,New York,English,537,4739,9,2/23/2021
+55,Men 18-24,YouTube,0.05,"$17,375.00 ",6.15,Miami,Spanish,450,6012,7,2/24/2021
+56,Men 25-34,Website,0.13,"$8,903.00 ",3.7,Miami,English,178,8529,9,2/25/2021
+57,Women 35-44,Website,0.04,"$14,511.00 ",6.66,Chicago,English,164,2122,8,2/26/2021
+58,Men 18-24,Email,0.06,"$17,305.00 ",2.7,New York,French,569,1850,2,2/27/2021
+59,Women 25-34,Email,0.04,"$18,063.00 ",4.93,Chicago,English,330,6920,6,2/28/2021
+60,Men 25-34,Email,0.05,"$10,293.00 ",6.8,Miami,French,256,3421,9,3/1/2021
+61,Men 25-34,Email,0.05,"$8,785.00 ",2.27,New York,German,849,9217,5,3/2/2021
+62,Men 25-34,Email,0.09,"$13,848.00 ",5.32,Los Angeles,French,261,1958,2,3/3/2021
+63,Women 35-44,Email,0.01,"$14,435.00 ",07.04,Houston,Mandarin,592,3596,4,3/4/2021
+64,Men 18-24,Facebook,0.02,"$14,001.00 ",3.71,Chicago,English,201,8702,10,3/5/2021
+65,All Ages,Website,0.11,"$8,841.00 ",7.43,Houston,French,648,9122,9,3/6/2021
+66,All Ages,YouTube,0.04,"$11,366.00 ",7.28,Los Angeles,Mandarin,187,5048,8,3/7/2021
+67,Women 25-34,YouTube,0.07,"$12,910.00 ",6.33,Miami,Spanish,839,5569,7,3/8/2021
+68,Women 25-34,YouTube,0.12,"$7,823.00 ",2.72,New York,Mandarin,240,2512,6,3/9/2021
+69,All Ages,Facebook,0.03,"$11,864.00 ",7.98,Chicago,French,932,9973,9,3/10/2021
+70,All Ages,Facebook,0.1,"$17,414.00 ",4.74,Los Angeles,German,694,2836,2,3/11/2021
+71,Men 25-34,Website,0.13,"$18,201.00 ",5.58,New York,German,202,6745,8,3/12/2021
+72,All Ages,Email,0.03,"$9,549.00 ",5.61,Chicago,French,416,9187,7,3/13/2021
+73,Women 35-44,YouTube,0.13,"$16,635.00 ",7.46,Miami,English,576,9999,10,3/14/2021
+74,All Ages,Facebook,0.1,"$9,310.00 ",5.63,New York,German,300,3687,9,3/15/2021
+75,All Ages,YouTube,0.11,"$5,158.00 ",6.67,Chicago,German,776,4238,3,3/16/2021
+76,Men 25-34,Instagram,0.04,"$15,182.00 ",02.03,Houston,English,492,7364,2,3/17/2021
+77,Men 18-24,Google Ads,0.08,"$5,703.00 ",3.23,Chicago,German,763,8501,10,3/18/2021
+78,Women 35-44,Google Ads,0.02,"$12,008.00 ",4.82,Miami,Spanish,817,7892,2,3/19/2021
+79,Women 35-44,Google Ads,0.13,"$15,850.00 ",7.74,New York,Spanish,791,3594,4,3/20/2021
+80,Women 25-34,Email,0.1,"$9,813.00 ",6.57,Miami,French,737,9941,6,3/21/2021
+81,Women 35-44,Google Ads,0.14,"$19,300.00 ",7.62,Miami,Mandarin,159,3643,1,3/22/2021
+82,Women 25-34,YouTube,0.12,"$17,772.00 ",6.33,New York,English,913,1921,5,3/23/2021
+83,Women 25-34,Facebook,0.1,"$17,293.00 ",3.74,Houston,Spanish,238,8969,6,3/24/2021
+84,All Ages,YouTube,0.08,"$8,398.00 ",3.99,Miami,English,134,3108,1,3/25/2021
+85,Women 35-44,Email,0.15,"$15,866.00 ",2.3,Houston,French,159,2139,10,3/26/2021
+86,All Ages,YouTube,0.13,"$7,515.00 ",7.38,Houston,Mandarin,635,8489,3,3/27/2021
+87,Women 25-34,YouTube,0.15,"$19,026.00 ",2.22,Miami,Mandarin,187,2573,10,3/28/2021
+88,Men 18-24,Facebook,0.14,"$8,280.00 ",7.89,New York,German,537,3042,1,3/29/2021
+89,Women 25-34,Google Ads,0.1,"$18,251.00 ",4.41,New York,Spanish,597,8117,6,3/30/2021
+90,All Ages,Instagram,0.07,"$13,108.00 ",02.01,Houston,German,550,3839,7,3/31/2021
+91,Women 35-44,YouTube,0.09,"$15,477.00 ",6.98,Houston,English,956,9087,3,4/1/2021
+92,Men 25-34,Email,0.09,"$17,705.00 ",7,New York,Spanish,628,9545,4,4/2/2021
+93,Women 35-44,Instagram,0.05,"$18,470.00 ",2.57,Chicago,English,938,7879,10,4/3/2021
+94,Men 25-34,Instagram,0.01,"$14,438.00 ",7.19,New York,French,147,6497,10,4/4/2021
+95,Men 18-24,Facebook,0.08,"$6,278.00 ",4.93,Miami,German,776,4289,8,4/5/2021
+96,All Ages,Email,0.08,"$5,185.00 ",4.61,New York,French,108,9532,1,4/6/2021
+97,Women 25-34,Instagram,0.14,"$18,799.00 ",3.69,Miami,French,395,6079,8,4/7/2021
+98,All Ages,Facebook,0.04,"$7,365.00 ",7.96,New York,French,419,4484,1,4/8/2021
+99,All Ages,Instagram,0.02,"$6,565.00 ",3.12,New York,French,463,6061,8,4/9/2021
+100,All Ages,Facebook,0.09,"$9,022.00 ",5.58,Miami,Spanish,521,2572,4,4/10/2021
+101,Men 25-34,YouTube,0.07,"$18,735.00 ",4.86,Los Angeles,Spanish,706,8715,6,4/11/2021
+102,Men 18-24,YouTube,0.09,"$9,941.00 ",4.54,Chicago,English,207,8334,4,4/12/2021
+103,Men 18-24,Website,0.08,"$10,113.00 ",6.87,Houston,English,583,1005,3,4/13/2021
+104,Men 18-24,Facebook,0.1,"$8,310.00 ",7.17,Chicago,Spanish,864,6841,3,4/14/2021
+105,Men 18-24,Google Ads,0.06,"$15,073.00 ",2.17,Los Angeles,English,387,8035,2,4/15/2021
+106,Women 25-34,Email,0.09,"$7,541.00 ",3.35,Chicago,Spanish,560,3439,7,4/16/2021
+107,Men 25-34,Google Ads,0.11,"$14,875.00 ",6.5,New York,German,306,1560,3,4/17/2021
+108,All Ages,Email,0.06,"$5,514.00 ",7.32,Miami,German,740,4550,1,4/18/2021
+109,Men 25-34,Instagram,0.05,"$15,107.00 ",4.79,Houston,Spanish,115,1475,10,4/19/2021
+110,Women 25-34,YouTube,0.1,"$13,712.00 ",6.4,Chicago,English,366,3843,3,4/20/2021
+111,All Ages,Facebook,0.05,"$11,789.00 ",5.39,Houston,German,659,3670,9,4/21/2021
+112,All Ages,Website,0.13,"$18,335.00 ",7.58,Los Angeles,Mandarin,552,3464,5,4/22/2021
+113,Women 35-44,Google Ads,0.02,"$19,035.00 ",02.01,Miami,Mandarin,560,6945,7,4/23/2021
+114,Women 25-34,YouTube,0.11,"$17,655.00 ",04.04,Los Angeles,English,369,8912,4,4/24/2021
+115,Women 25-34,Google Ads,0.11,"$6,710.00 ",2.72,Houston,German,886,6158,7,4/25/2021
+116,Women 25-34,Facebook,0.09,"$9,899.00 ",3.7,Los Angeles,German,447,4878,8,4/26/2021
+117,All Ages,Instagram,0.14,"$7,032.00 ",7.86,Chicago,Spanish,595,1555,4,4/27/2021
+118,All Ages,Website,0.05,"$5,174.00 ",4.98,Houston,German,438,9741,1,4/28/2021
+119,Women 35-44,YouTube,0.14,"$15,679.00 ",3.71,Los Angeles,German,652,3884,7,4/29/2021
+120,All Ages,YouTube,0.07,"$12,143.00 ",7.65,Miami,Mandarin,802,8897,10,4/30/2021
+121,Women 35-44,Facebook,0.02,"$19,329.00 ",7.58,Houston,English,841,4536,8,5/1/2021
+122,All Ages,Email,0.09,"$8,854.00 ",6.78,Chicago,German,137,4002,6,5/2/2021
+123,Women 35-44,YouTube,0.04,"$5,232.00 ",7.61,New York,German,850,6515,5,5/3/2021
+124,Men 25-34,Instagram,0.02,"$13,006.00 ",3.7,Chicago,Spanish,727,2863,1,5/4/2021
+125,Men 18-24,Website,0.13,"$5,653.00 ",06.08,Chicago,Mandarin,986,4477,10,5/5/2021
+126,Men 25-34,Google Ads,0.02,"$18,169.00 ",5.5,Miami,English,259,3941,7,5/6/2021
+127,Men 25-34,Email,0.08,"$13,316.00 ",6.15,Los Angeles,Spanish,321,7186,2,5/7/2021
+128,All Ages,Email,0.08,"$17,847.00 ",6.68,Houston,Spanish,942,9066,3,5/8/2021
+129,Men 18-24,Instagram,0.06,"$10,639.00 ",4.32,New York,Spanish,166,5735,10,5/9/2021
+130,Men 25-34,YouTube,0.03,"$10,945.00 ",3.16,Chicago,Spanish,508,8054,6,5/10/2021
+131,Men 18-24,Instagram,0.11,"$5,167.00 ",6.63,New York,Spanish,885,1932,7,5/11/2021
+132,Men 25-34,Google Ads,0.15,"$8,300.00 ",6.65,Chicago,Spanish,158,4842,4,5/12/2021
+133,Men 25-34,Instagram,0.14,"$13,469.00 ",7.54,Houston,German,857,4028,8,5/13/2021
+134,Men 25-34,Facebook,0.1,"$19,254.00 ",2.41,Miami,English,481,1876,7,5/14/2021
+135,All Ages,Google Ads,0.04,"$10,704.00 ",6.46,Chicago,French,999,7543,8,5/15/2021
+136,Men 18-24,Email,0.15,"$9,229.00 ",3.56,New York,Spanish,939,5999,8,5/16/2021
+137,Women 35-44,Instagram,0.1,"$14,125.00 ",4.9,Houston,Spanish,885,7833,5,5/17/2021
+138,All Ages,Instagram,0.04,"$8,222.00 ",6.17,Houston,Mandarin,666,1435,4,5/18/2021
+139,Men 18-24,Website,0.07,"$14,226.00 ",3.77,Chicago,German,359,9440,8,5/19/2021
+140,Men 18-24,Website,0.06,"$18,985.00 ",4.61,Miami,English,328,8840,5,5/20/2021
+141,Women 25-34,Email,0.08,"$5,599.00 ",3.43,Houston,English,571,2404,3,5/21/2021
+142,All Ages,Google Ads,0.08,"$11,952.00 ",3.48,Houston,English,845,5702,8,5/22/2021
+143,Women 35-44,Facebook,0.05,"$14,503.00 ",3.8,Miami,Mandarin,585,9150,3,5/23/2021
+144,Men 25-34,Instagram,0.11,"$10,404.00 ",2.41,New York,German,418,3556,2,5/24/2021
+145,Men 18-24,Email,0.12,"$7,484.00 ",5.86,Houston,English,208,8730,2,5/25/2021
+146,Men 25-34,Google Ads,0.03,"$7,428.00 ",4.72,Houston,Mandarin,556,5179,4,5/26/2021
+147,Men 25-34,Facebook,0.1,"$11,495.00 ",5.13,Los Angeles,French,734,2612,5,5/27/2021
+148,All Ages,Facebook,0.13,"$18,957.00 ",2.83,Los Angeles,Spanish,643,2939,4,5/28/2021
+149,Men 18-24,Instagram,0.06,"$10,772.00 ",2.94,Chicago,English,165,1496,6,5/29/2021
+150,Women 35-44,Instagram,0.14,"$6,896.00 ",2.15,Houston,German,693,1290,1,5/30/2021
+151,Men 18-24,Facebook,0.13,"$13,318.00 ",2.98,New York,German,261,1415,6,5/31/2021
+152,Women 35-44,Website,0.06,"$7,031.00 ",5.67,Houston,French,404,8033,6,6/1/2021
+153,Women 35-44,Instagram,0.06,"$5,466.00 ",2.66,Houston,English,257,5756,2,6/2/2021
+154,All Ages,Instagram,0.11,"$15,303.00 ",7.41,Chicago,Spanish,901,8712,2,6/3/2021
+155,Women 35-44,Instagram,0.13,"$13,157.00 ",4.41,New York,German,724,9573,6,6/4/2021
+156,All Ages,Instagram,0.07,"$13,197.00 ",3.31,Los Angeles,French,672,8765,9,6/5/2021
+157,Men 25-34,Facebook,0.09,"$19,723.00 ",4.74,Houston,Mandarin,148,2746,8,6/6/2021
+158,Men 18-24,Google Ads,0.12,"$18,903.00 ",7.24,Miami,French,488,4253,1,6/7/2021
+159,Women 35-44,Website,0.06,"$17,737.00 ",4.23,Houston,Spanish,420,8196,4,6/8/2021
+160,Women 25-34,Instagram,0.08,"$16,981.00 ",5.74,Miami,French,395,7469,6,6/9/2021
+161,All Ages,Website,0.05,"$15,993.00 ",6.55,Miami,English,616,9536,8,6/10/2021
+162,Men 18-24,YouTube,0.07,"$7,893.00 ",5.28,Chicago,German,170,6306,9,6/11/2021
+163,Women 25-34,Google Ads,0.04,"$9,858.00 ",03.09,Los Angeles,Spanish,957,4396,9,6/12/2021
+164,Women 35-44,Email,0.09,"$6,885.00 ",7.65,Houston,Spanish,872,3269,1,6/13/2021
+165,Men 25-34,Email,0.07,"$11,587.00 ",3.17,Houston,English,716,2676,9,6/14/2021
+166,All Ages,Facebook,0.15,"$5,202.00 ",5.94,New York,German,998,5108,3,6/15/2021
+167,Men 18-24,Instagram,0.08,"$15,651.00 ",7.24,Los Angeles,English,481,4165,7,6/16/2021
+168,All Ages,Website,0.12,"$11,879.00 ",8,New York,Spanish,568,4997,6,6/17/2021
+169,Women 25-34,Email,0.03,"$12,183.00 ",4.36,Los Angeles,English,421,6087,10,6/18/2021
+170,All Ages,Google Ads,0.07,"$10,690.00 ",5.41,Los Angeles,English,797,1306,9,6/19/2021
+171,Men 25-34,Website,0.06,"$12,886.00 ",4.62,Miami,Mandarin,668,2507,8,6/20/2021
+172,Men 25-34,Google Ads,0.09,"$10,854.00 ",6.1,Houston,English,303,9453,2,6/21/2021
+173,All Ages,YouTube,0.11,"$7,170.00 ",3.76,Los Angeles,German,540,6422,8,6/22/2021
+174,Men 25-34,Google Ads,0.15,"$17,414.00 ",6.9,Los Angeles,French,801,8439,5,6/23/2021
+175,Men 18-24,Instagram,0.1,"$12,272.00 ",5.29,Los Angeles,French,436,7817,7,6/24/2021
+176,All Ages,Website,0.09,"$6,489.00 ",2.22,Chicago,English,683,9143,6,6/25/2021
+177,Women 35-44,YouTube,0.08,"$19,732.00 ",06.06,Chicago,English,862,6773,1,6/26/2021
+178,All Ages,YouTube,0.09,"$17,837.00 ",3.84,Houston,English,944,9536,6,6/27/2021
+179,All Ages,Email,0.13,"$11,954.00 ",4.91,Miami,Mandarin,241,9184,8,6/28/2021
+180,Women 35-44,Google Ads,0.01,"$16,862.00 ",6.29,Chicago,Spanish,200,1513,9,6/29/2021
+181,All Ages,Email,0.07,"$8,076.00 ",4.29,New York,Mandarin,883,3400,8,6/30/2021
+182,Women 35-44,Facebook,0.06,"$19,143.00 ",2.58,Los Angeles,Spanish,690,1087,7,7/1/2021
+183,Women 35-44,Instagram,0.06,"$18,350.00 ",3.2,New York,Spanish,372,3266,4,7/2/2021
+184,Men 18-24,Email,0.06,"$12,315.00 ",3.97,Chicago,Spanish,505,4099,7,7/3/2021
+185,Men 25-34,Instagram,0.14,"$17,598.00 ",7.27,Chicago,Mandarin,961,8475,7,7/4/2021
+186,Women 35-44,Instagram,0.05,"$19,545.00 ",2.57,Houston,German,209,1917,1,7/5/2021
+187,Men 25-34,Email,0.13,"$14,231.00 ",6.28,Chicago,Mandarin,312,8509,3,7/6/2021
+188,Women 25-34,Instagram,0.11,"$15,162.00 ",7.8,Chicago,German,360,6030,8,7/7/2021
+189,Women 25-34,Email,0.12,"$15,403.00 ",6.21,Houston,English,542,6792,6,7/8/2021
+190,All Ages,Email,0.06,"$5,363.00 ",5.46,Chicago,German,369,8511,8,7/9/2021
+191,Women 35-44,Website,0.12,"$13,903.00 ",2.46,Chicago,German,461,9733,9,7/10/2021
+192,Men 25-34,Facebook,0.12,"$14,271.00 ",5.64,New York,Mandarin,842,2301,1,7/11/2021
+193,Men 25-34,Google Ads,0.05,"$13,744.00 ",4.7,Miami,German,743,5155,5,7/12/2021
+194,All Ages,Google Ads,0.1,"$6,093.00 ",4.28,New York,Mandarin,423,1340,7,7/13/2021
+195,All Ages,Email,0.07,"$5,272.00 ",3.62,Chicago,Spanish,939,9590,9,7/14/2021
+196,Women 35-44,YouTube,0.02,"$6,208.00 ",7.31,Houston,Mandarin,257,9939,8,7/15/2021
+197,Women 25-34,Email,0.1,"$15,437.00 ",3.72,Los Angeles,English,683,4212,6,7/16/2021
+198,Men 18-24,Instagram,0.01,"$16,368.00 ",4.37,Los Angeles,Mandarin,433,8942,5,7/17/2021
+199,Men 18-24,Email,0.14,"$10,939.00 ",4.79,Miami,Spanish,146,1404,3,7/18/2021

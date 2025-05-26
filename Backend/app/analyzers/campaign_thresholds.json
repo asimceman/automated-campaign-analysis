@@ -1,0 +1,6 @@
+{
+  "conversion_rate": { "lt": 0.02 },
+  "roi": { "lt": 0 },
+  "engagement_score": { "lt": 2 },
+  "acquisition_cost": { "gt": 19731 }
+}
