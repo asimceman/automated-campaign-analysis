@@ -4,7 +4,6 @@ help:
 
 start:
 	docker compose up -d --build backend db
-	docker compose exec backend poetry install --no-root
 	docker compose exec backend poetry run alembic upgrade head
 	docker compose exec backend poetry run python app/data/seed.py
 	cd frontend && npm install && npm run dev

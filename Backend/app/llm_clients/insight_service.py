@@ -1,10 +1,6 @@
-import os
-from typing import Dict, List
+from typing import List
 from app.settings import settings
 from openai import OpenAI
-from sqlalchemy.ext.asyncio import AsyncSession
-
-from app.database.session import SessionLocal
 from app.models.ad import Ad
 from app.repositories.ad_repository import AdRepository
 from app.repositories.campaign_repository import CampaignRepository
@@ -66,48 +62,44 @@ async def generate_insight(prompt: str, model: str = "mistralai/devstral-small:f
             }
         ]
     )
+    print('result: ', response.choices[0].message.content)
     return response.choices[0].message.content
 
-async def generate_insights_and_recommendation_for_campaign(campaign_id: int
+async def generate_insights_and_recommendation_for_campaign(campaign_id: int, ad_repository: AdRepository, campaign_repository: CampaignRepository
 ) -> tuple[str, str]:
-    async with SessionLocal() as session:
-        repo = AdRepository(session)
-        ads = await repo.get_ads_for_campaign(campaign_id)
-        prompt = build_campaign_prompt(ads)
+    ads = await ad_repository.get_ads_for_campaign(campaign_id)
+    prompt = build_campaign_prompt(ads)
 
-        recommendation_text = await generate_insight(prompt)
-        
-        # Step 1: Remove asterisks
-        recommendation_text = recommendation_text.replace("*", "")
+    recommendation_text = await generate_insight(prompt)
+    
+    # Step 1: Remove asterisks
+    recommendation_text = recommendation_text.replace("*", "")
 
-        # Step 2: Strip and remove all empty lines
-        lines = [line.strip() for line in recommendation_text.split("\n") if line.strip()]
+    # Step 2: Strip and remove all empty lines
+    lines = [line.strip() for line in recommendation_text.split("\n") if line.strip()]
 
-        # Step 3: Rejoin cleaned lines
-        cleaned_text = "\n".join(lines)
+    # Step 3: Rejoin cleaned lines
+    cleaned_text = "\n".join(lines)
 
-        # Step 4: Extract insights and recommendations
-        insights = ""
-        recommendations = ""
+    # Step 4: Extract insights and recommendations
+    insights = ""
+    recommendations = ""
 
-        if "Insights:" in cleaned_text and "Recommendations:" in cleaned_text:
-            insights_part, recommendations_part = cleaned_text.split("Recommendations:", 1)
-            insights = insights_part.replace("Insights:", "").strip()
-            recommendations = recommendations_part.strip()
-        else:
-            # Fallback if "Recommendations:" is missing
-            insights = cleaned_text.strip()
+    if "Insights:" in cleaned_text and "Recommendations:" in cleaned_text:
+        insights_part, recommendations_part = cleaned_text.split("Recommendations:", 1)
+        insights = insights_part.replace("Insights:", "").strip()
+        recommendations = recommendations_part.strip()
+    else:
+        # Fallback if "Recommendations:" is missing
+        insights = cleaned_text.strip()
 
-        # Now `insights` and `recommendations` are both clean strings
+    # Now `insights` and `recommendations` are both clean strings
 
-        campaign_repo = CampaignRepository(session)
-        campaign = await campaign_repo.get_campaign_by_id(1)
+    campaign = await campaign_repository.get_campaign_by_id(1)
 
-        campaign.insights = insights
-        campaign.recommendations = recommendations
+    campaign.insights = insights
+    campaign.recommendations = recommendations
 
-        await session.commit()
-
-        campaign_name = campaign.name
+    campaign_name = campaign.name
 
     return campaign_name, insights, recommendations

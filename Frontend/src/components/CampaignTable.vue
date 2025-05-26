@@ -24,7 +24,7 @@
         <div v-if="loading">Loading campaign data. Please wait...</div>
       </template>
       <Column field="id" header="ID"> </Column>
-      <Column field="has_violations" header="Violations" sortable>
+      <Column field="has_violations" header="Violations">
         <template #body="slotProps">
           {{ renderViolations(slotProps.data.has_violations) }}
         </template>

@@ -1,1 +1,1 @@
-poetry run uvicorn app.main:app --reload
+# automated-campaign-analysis-be

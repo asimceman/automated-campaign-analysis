@@ -21,12 +21,6 @@ class AdRepository:
         )
         return result.scalars().all()
     
-    async def get_paginated(self, offset: int = 0, limit: int = 10) -> List[Ad]:
-        result = await self.session.execute(
-            select(Ad).offset(offset).limit(limit)
-        )
-        return result.scalars().all()
-    
     async def get_channel_summaries_by_campaign(
         self, campaign_id: int
     ) -> List[AdChannelSummary]:
