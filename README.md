@@ -8,9 +8,9 @@ Short demo can be found in the [Google Drive](https://drive.google.com/drive/fol
 
 # Dataset
 
-The dataset being used in the POC version is [Marketing Campaign Performance Dataset](https://www.kaggle.com/datasets/manishabhatt22/marketing-campaign-performance-dataset?resource=download) with a couple of tweaks and different assumptions. We took the subset of 200 rows from the mentioned dataset and removed the columns 'Company', 'Campaign_Type', 'Duration', 'Customer_Segment'. With those modifications we are treating every row as a daily report for the campaign.
+The dataset being used in the POC version is [Marketing Campaign Performance Dataset](https://www.kaggle.com/datasets/manishabhatt22/marketing-campaign-performance-dataset?resource=download) with a couple of tweaks and different assumptions. We took the subset of 199 rows from the mentioned dataset and removed the columns 'Company', 'Campaign_Type', 'Duration', 'Customer_Segment'. With those modifications we are treating every row as a daily report for the campaign.
 
-We are analyzing the dataset against the manually sent thresholds that can be found in the `Backend/app/analyzers/campaign_thresholds.json` file. For the purpose of this POC we are analyzing the campaign data against 4 threshold fields: conversion_rate, roi, engagement_score and acquisition_cost. We are checking the values of those fields and comparing them to the threshold with 2 operations:
+We are analyzing the dataset against the manually set thresholds that can be found in the `Backend/app/analyzers/campaign_thresholds.json` file. For the purpose of this POC we are analyzing the campaign data against 4 threshold fields: conversion_rate, roi, engagement_score and acquisition_cost. We are checking the values of those fields and comparing them to the threshold with 2 operations:
 
 1. gt -> Rows that exceed the threshold value will be flagged
 2. lt -> Rows that have the value less than the threshold will be flagged.
@@ -36,9 +36,9 @@ This application integrates the [Mailgun](https://app.mailgun.com/) service. Whe
 1. Create an account on their website
 2. Activate your account in the `Get started section`
 3. Create an API key [here](https://app.mailgun.com/settings/api_security?onboardingTask=api-key)
-4. Store the generated API key in the ` Backend/.env.sample`` file in the field  `MAILGUN_API_KEY`
-5. Copy the [domain](https://app.mailgun.com/mg/sending/domains) on the website and store it in the ` Backend/.env.sample`` file in the field  `MAILGUN_DOMAIN`
-6. In the Domain settings add authorized recipient (the one to whom you will send an insight email) and store the email address in the in the ` Backend/.env.sample`` file in the field  `RECIPIENT_EMAIL`
+4. Store the generated API key in the ` Backend/.env.sample` file in the field  `MAILGUN_API_KEY`
+5. Copy the [domain](https://app.mailgun.com/mg/sending/domains) on the website and store it in the ` Backend/.env.sample` file in the field  `MAILGUN_DOMAIN`
+6. In the Domain settings add authorized recipient (the one to whom you will send an insight email) and store the email address in the in the ` Backend/.env.sample` file in the field  `RECIPIENT_EMAIL`
 
 ### Docker
 
