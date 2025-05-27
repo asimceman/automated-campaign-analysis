@@ -36,9 +36,10 @@ This application integrates the [Mailgun](https://app.mailgun.com/) service. Whe
 1. Create an account on their website
 2. Activate your account in the `Get started section`
 3. Create an API key [here](https://app.mailgun.com/settings/api_security?onboardingTask=api-key)
-4. Store the generated API key in the ` Backend/.env.sample` file in the field  `MAILGUN_API_KEY`
-5. Copy the [domain](https://app.mailgun.com/mg/sending/domains) on the website and store it in the ` Backend/.env.sample` file in the field  `MAILGUN_DOMAIN`
-6. In the Domain settings add authorized recipient (the one to whom you will send an insight email) and store the email address in the in the ` Backend/.env.sample` file in the field  `RECIPIENT_EMAIL`
+4. Store the generated API key in the `Backend/.env.sample` file in the field `MAILGUN_API_KEY`
+5. Copy the [domain](https://app.mailgun.com/mg/sending/domains) on the website and store it in the `Backend/.env.sample` file in the field `MAILGUN_DOMAIN`
+6. In the Mailgun's domain settings, in the `setup` tab, register an authorized recipient (the one to whom you will send an insight email)
+7. After authorizing the recipient's email, by accepting the invitation that comes to the recipient's email, store the recipient's email address in the `Backend/.env.sample` file in the field `RECIPIENT_EMAIL`
 
 ### Docker
 
